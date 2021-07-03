@@ -82,9 +82,10 @@ p {
 .fixedManuBar {
     text-align: center;
     width: 25%;
-    background: #a43f49;
+    background: rgb(164, 63, 73);
     float: left;
     position: fixed;
+    padding: 30px 0px;
     height: 100%;
 }
 .fixedManuBar img {
