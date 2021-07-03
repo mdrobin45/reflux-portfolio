@@ -13,19 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Main Section -->
+    <!-- Fixed Section-->
     <div class="row fixedManuBar">
         <div class="col4">
             <img src="images/robin.png" alt="Robin">
             <h1>Robin Rana</h1>
             <p>Web Designer</p>
-            <ul>
-                <li><a href="#"></a>About Me</li>
-                <li><a href="#"></a>What I'm good at'</li>
-                <li><a href="#"></a>My work</li>
-                <li><a href="#"></a>Contact Me</li>
+            <ul class="menuItems">
+                <li><a class="menuHover" href="#">About Me</a></li>
+                <li><a href="#">What I'm good at</a></li>
+                <li><a href="#">My work</a></li>
+                <li><a href="#">Contact Me</a></li>
             </ul>
-            <ul>
+            <ul class="socialIcons">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
@@ -36,18 +36,19 @@
             <p>Copyright 2045 Reflux Design</p>
         </div>
     </div>
+    <!-- Content Section -->
     <div class="row contentSec container">
         <div class="col">
             <div class="row">
-                <div class="col">
+                <div class="col alignCenter allHeaderPad">
                     <h2>About Me</h2>
-                    <hr>
+                    <hr class="hr-1">
                     <p>This is a Bootstrap v4.2.1 CSS Template for you. Edit and use this layout for your site. Updated on 21 May 2019 for repeated main menu HTML code.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pad">
                 <div class="col">
-                    <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page261/reflux/assets/images/left-image.jpg" alt="Image-1">
+                    <img class="feturedImg" src="images/left-image.jpg" alt="Image-1">
                 </div>
                 <div class="col">
                     <h2>Reflux HTML CSS Template</h2>
@@ -55,29 +56,29 @@
                     <a class="btnStyle" href="#">Read More</a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pad">
                 <div class="col">
                     <h2>Sed sagittis rhoncus velit</h2>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum fermentum eleifend nibh, vitae sodales elit finibus pretium. Suspendisse potenti. Ut sollicitudin risus a sollicitudin semper.</p>
-                    <a href="#">Read More</a>
+                    <a class="btnStyle" href="#">Read More</a>
                 </div>
                 <div class="col">
-                    <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page261/reflux/assets/images/right-image.jpg" alt="Image-2">
+                    <img class="feturedImg" src="images/right-image.jpg" alt="Image-2">
                 </div>
             </div>
-            <hr>
+            <hr class="hr-2">
             <div class="row">
-                <div class="col">
+                <div class="col alignCenter allHeaderPad">
                     <h2>What I’m good at?</h2>
-                    <hr>
+                    <hr class="hr-1">
                     <p>Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor. Vestibulum congue leo et tellus aliquam, eu viverra nulla semper. Nullam eu faucibus diam. Donec eget massa ante.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <i class="far fa-lightbulb"></i>
-                    <h2>HTML5 & CSS3</h2>
-                    <p>Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros.</p>
+            <div class="row skillBg">
+                <div class="col skillCol ">
+                    <i class="far fa-lightbulb skillIcons"></i>
+                    <h2 class="skillColH2">HTML5 & CSS3</h2>
+                    <p class="skillColP">Phasellus non convallis dolor. Integer tempor hendrerit arcu at bibendum. Sed ac ante non metus vehicula congue quis eget eros.</p>
                 </div>
                 <div class="col">
                     <i class="fas fa-code"></i>

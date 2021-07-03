@@ -6,29 +6,54 @@
     font-family: 'Roboto', sans-serif;
 
 }
+.alignCenter {
+    text-align: center;
+}
 .container{
     width: 77% !important;
     margin: auto;
 }
 h1,h2,h3 {
     font-weight: bold;
+    padding: 10px 0;
 }
 a {
     text-decoration: none !important;
     color: #fff !important;
 }
 .hr-1 {
-    background-color: #a43f49;
+    background: #ac2734;
+    padding: 2px;
+    opacity: 1;
+    margin: auto;
+    width: 6rem;
+}
+.feturedImg {
+    width: 77%;
+    border-radius: 5px;
 }
 .hr-2 {
     background-color: #5C5D61;
+    padding: 2px;
+    opacity: 1;
+    margin: auto;
+}
+ul.menuItems{
+    padding: 0;
+}
+.pad {
+    padding: 50px 0px;
 }
 ul li {
     list-style: none;
     color: #fff;
+    padding: 0;
+}
+p {
+    padding: 19px 0px;
 }
 .btnStyle {
-    color: #a43f49;
+    color: #a43f49 !important;
     background: #fff;
     transition: 0.3s;
     border: none;
@@ -36,12 +61,12 @@ ul li {
     border-radius: 2px;
 }
 .btnStyle:hover {
-    color: #fff;
+    color: #fff !important;
     background: #a43f49;
 }
 .skillIcons {
     height: 80px;
-    border: 2px solid #333;
+    border: 2px solid #fff;
     border-radius: 50%;
     width: 80px;
 }
@@ -61,4 +86,57 @@ ul li {
     float: right;
     overflow: hidden;
     background: #333;
+}
+ul.menuItems li a {
+    padding: 22px 0px;
+    display: block;
+    border-bottom: 2px solid;
+}
+ul.menuItems li a:hover{
+    background-color: #fff;
+    color: #333 !important;
+    border-color: #fff !important;
+}
+.menuHover {
+    background: #fff;
+    color: #333 !important;
+    border: none !important;
+}
+.row.fixedManuBar .col4 p {
+    display: block;
+    padding-bottom: 30px;
+}
+ul.socialIcons li {
+    float: left;
+    margin: 0px 5px;
+}
+ul.socialIcons li a i {
+    background: #504747;
+    padding: 9px 10px;
+    transition: 0.3s;
+}
+ul.socialIcons li a i:hover {
+    background: #fff;
+    color: #333 !important;
+}
+ul.socialIcons {
+    display: inline-block;
+    margin-top: 45px;
+}
+.col4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.col.allHeaderPad {
+    padding: 30px 150px;
+}
+i.far.fa-lightbulb.skillIcons {
+    font-size: 50px;
+    padding: 16px 10px 10px 20px;
+}
+.skillColP {
+padding-right: 50px;
+}
+.skillColH2 {
+    padding: 30px 0px 0px 0px;
 }
