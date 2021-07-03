@@ -1,0 +1,64 @@
+/* Global Style */
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width: 77% !important;
+    margin: auto;
+}
+h1,h2,h3 {
+    font-weight: bold;
+}
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.hr-1 {
+    background-color: #a43f49;
+}
+.hr-2 {
+    background-color: #5C5D61;
+}
+ul li {
+    list-style: none;
+    color: #fff;
+}
+.btnStyle {
+    color: #a43f49;
+    background: #fff;
+    transition: 0.3s;
+    border: none;
+    padding: 16px;
+    border-radius: 2px;
+}
+.btnStyle:hover {
+    color: #fff;
+    background: #a43f49;
+}
+.skillIcons {
+    height: 80px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 80px;
+}
+/* Content Style */
+.fixedManuBar {
+    text-align: center;
+    width: 25%;
+    background: #a43f49;
+    float: left;
+    position: fixed;
+    height: 100%;
+}
+.fixedManuBar img {
+    width: 60%;
+}
+.contentSec {
+    float: right;
+    overflow: hidden;
+    background: #333;
+}
