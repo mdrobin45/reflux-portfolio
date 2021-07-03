@@ -17,6 +17,30 @@ h1,h2,h3 {
     font-weight: bold;
     padding: 10px 0;
 }
+.portImage {
+    width: 100%;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    background: transparent;
+    padding: 7px 7px;
+    border: 1px solid #fff;
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 15px 0px !important;
+    padding: 5px 7px;
+}
+input[type="submit"] {
+    width: 20%;
+    padding: 7px 0px;
+    display: block;
+    margin: 12px auto !important;
+    text-align: center;
+}
 a {
     text-decoration: none !important;
     color: #fff !important;
@@ -36,7 +60,7 @@ a {
     background-color: #5C5D61;
     padding: 2px;
     opacity: 1;
-    margin: auto;
+    margin: 2rem auto 0px auto;
 }
 ul.menuItems{
     padding: 0;
@@ -134,9 +158,44 @@ i.far.fa-lightbulb.skillIcons {
     font-size: 50px;
     padding: 16px 10px 10px 20px;
 }
+i.fas.fa-code.skillIcons {
+    font-size: 44px;
+    padding: 16px 10px 10px 10px;
+}
+i.fas.fa-cog.skillIcons {
+    font-size: 45px;
+    padding: 15px 10px 10px 16px;
+}
+i.fas.fa-chart-line.skillIcons {
+    font-size: 40px;
+    padding: 19px 10px 10px 19px;
+}
 .skillColP {
 padding-right: 50px;
 }
 .skillColH2 {
     padding: 30px 0px 0px 0px;
+    color: #fff !important;
+}
+.col.skillCol {
+    background: rgba(189, 195, 199,0.1);
+    padding: 25px 20px;
+    margin: 10px 10px;
+    transition: 0.2s;
+}
+.col.skillCol:hover {
+    background: #fff;
+}
+.col.skillCol:hover .skillColP, .col.skillCol:hover .skillColH2{
+    color: #333 !important;
+}
+.col.skillCol:hover .skillIcons {
+    color:#A43F49;
+}
+.row.contentSec.container{
+    background: url(images/page-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
